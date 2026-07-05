@@ -1,0 +1,32 @@
+{
+  "name": "knosky-export-daemon",
+  "version": "0.1.0",
+  "description": "Opt-in, org-owned export daemon for KnoSky append-only checkpoints (SAT-546). A separate package from knosky's no-egress core tool -- knosky never depends on, imports, or ships this package. Install and run this only if your organization has configured its own HTTPS destination to mirror checkpoint data to.",
+  "type": "module",
+  "bin": {
+    "knosky-export-daemon": "export-daemon.mjs"
+  },
+  "main": "export-daemon.mjs",
+  "files": [
+    "export-daemon.mjs",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "keywords": [
+    "knosky",
+    "export",
+    "opt-in",
+    "org-owned",
+    "checkpoint"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "homepage": "https://knosky.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SathiaAI/knosky-export-daemon.git"
+  }
+}
