@@ -6,7 +6,7 @@ FSL-1.1-MIT
 
 ## Notice
 
-Copyright 2026 Paul Poulose / Sathia
+Copyright 2026 Viaknox Holding LLC
 
 ## Terms and Conditions
 
